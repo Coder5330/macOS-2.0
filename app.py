@@ -10,7 +10,7 @@ def get_db():
         g.db = sqlite3.connect(DATABASE_LOCATION)
         g.db.row_factory = sqlite3.Row
 
-    return g.dbc
+    return g.db
 
 
 def init_db():
