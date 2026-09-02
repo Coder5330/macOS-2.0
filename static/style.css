@@ -1,0 +1,39 @@
+body {
+    background: #000055;
+    margin: 3px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.menu-navbar-left {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu-navbar-left p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.menu-navbar-right p {
+    margin: 0px;
+    padding: 0px
+}
+
+.menu-navbar {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
